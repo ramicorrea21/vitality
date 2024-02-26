@@ -12,7 +12,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav className="bg-white px-6 py-6 lg:py-10">
+        <nav className=" px-6 py-6 lg:py-10">
             <div className="container mx-auto flex items-center">
                 <Link href="/" className='flex items-center mr-10'>
                     <Image src="/img/logo.svg" className="hidden xl:block" alt='logo' width={300} height={300} />
@@ -24,27 +24,27 @@ export default function Navbar() {
                     <ul className="flex space-x-8 xl:space-x-20 ">
                         <li>
                             <Link href="/our-story" className="font-semibold text-lg hover:text-violet-500">
-                                Our Story
+                                Nuestra Historia
                             </Link>
                         </li>
                         <li className="ml-2 xl:ml-6">
                             <Link href="/philosophy" className="font-semibold text-lg hover:text-violet-500">
-                                Philosophy
+                                Filosofia
                             </Link>
                         </li>
                         <li className="ml-2 xl:ml-6">
                             <Link href="/resources" className="font-semibold text-lg hover:text-violet-500">
-                                Resources
+                                Recursos
                             </Link>
                         </li>
                         <li className="ml-2 xl:ml-6">
                             <Link href="/case-study" className="font-semibold text-lg hover:text-violet-500">
-                                Free Case Study
+                                Contactanos
                             </Link>
                         </li>
                         <li className="ml-2 xl:ml-6">
                             <Link href="/reviews" className="font-semibold text-lg hover:text-violet-500">
-                                Reviews
+                                Reseñas
                             </Link>
                         </li>
                     </ul>
