@@ -1,41 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import {services} from '../utils/services'
+import { CiCircleCheck } from "react-icons/ci";
 
-const services = [
-  {
-    name: 'Landing Page',
-    price: '$99/año',
-    features: [
-      'Diseño Responsivo',
-      'Optimizado para SEO',
-      'Seguimiento de Rendimiento'
-    ],
-    bgColor: 'bg-blue-500 hover:bg-blue-600',
-    description: 'Atrae a tu audiencia con una landing page impresionante diseñada para la conversión y la experiencia del usuario.'
-  },
-  {
-    name: 'Solución Ecommerce con Shopify',
-    price: '$299/año',
-    features: [
-      'Temas de Shopify Personalizados',
-      'Integración con Next.js',
-      'Analítica Avanzada'
-    ],
-    bgColor: 'bg-yellow-500 hover:bg-yellow-600',
-    description: 'Lanza tu tienda en línea con una solución personalizada de Shopify, potenciada con Next.js.'
-  },
-  {
-    name: 'Aplicaciones Web a Medida',
-    price: '$499/año',
-    features: [
-      'Soluciones de Extremo a Extremo',
-      'Arquitectura Escalable',
-      'Soporte Continuo'
-    ],
-    bgColor: 'bg-pink-500 hover:bg-pink-600',
-    description: 'Da vida a tus ideas de software complejas con nuestros servicios de desarrollo full stack integrales.'
-  },
-];
 
 export default function ServicesSection() {
   return (
@@ -49,14 +16,14 @@ export default function ServicesSection() {
             <div key={index} className={`flex flex-col items-center justify-between p-6 rounded-lg shadow-lg ${service.bgColor} transition duration-300`}>
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-2 text-white">{service.name}</h3>
-                <p className="text-xl font-semibold mb-4 text-white">{service.price}</p>
-                <ul className="mb-4 text-white">
+                <p className="text-3xl font-semibold mb-4 text-white">{service.price}<span className='text-lg'> /año</span></p>
+                <ul className="mb-4 text-white text-start ml-2">
                   {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="mb-1">{feature}</li>
+                    <li key={featureIndex} className="mb-4 flex"><CiCircleCheck size={25} className='mr-1'/>{feature}</li>
                   ))}
                 </ul>
-                <p className="mb-4 text-white text-sm px-2">{service.description}</p>
-                <Link href="/contact" className="inline-block w-full bg-black text-white font-bold py-2 px-4 rounded hover:bg-opacity-90 transition duration-300 text-center">
+                <p className="mb-4 mt-8 text-white text-sm px-2">{service.description}</p>
+                <Link href="https://calendly.com/vitality-ar/30min" className="inline-block w-full bg-black text-white font-bold py-2 px-4 rounded hover:bg-opacity-90 transition duration-300 text-center">
                     Comenzar
                 </Link>
               </div>
