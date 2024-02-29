@@ -13,12 +13,12 @@ export default function Banner() {
           <p className="text-lg md:text-xl lg:text-2xl mb-8">
             Potenciamos tus ideas de negocio para que puedas generar ingresos y optimizar tu tiempo.
           </p>
-          <Link href="/learn-more" className="bg-violet-600 text-white font-bold py-3 px-4 md:px-6 rounded-lg hover:bg-violet-700 transition duration-300">
+          <Link href="https://calendly.com/vitality-ar/30min" className="bg-violet-600 text-white font-bold py-3 px-4 md:px-6 rounded-lg hover:bg-violet-700 transition duration-300">
               Contáctanos →
           </Link>
         </div>
         <div className="w-full md:w-1/2 flex justify-center md:block">
-          <Image src="/img/flying-man.svg" alt="Rocket Man" width={500} height={500} layout="responsive" />
+          <Image src="/img/flying-man.svg" alt="Rocket Man" width={1000} height={1000} />
         </div>
       </div>
     </div>

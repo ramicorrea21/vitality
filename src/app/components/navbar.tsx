@@ -23,35 +23,26 @@ export default function Navbar() {
                 <div className="flex-grow hidden lg:block ">
                     <ul className="flex space-x-8 xl:space-x-20 ">
                         <li>
-                            <Link href="/our-story" className="font-semibold text-lg hover:text-violet-500">
-                                Nuestra Historia
+                            <Link href="/" className="font-semibold text-lg hover:text-violet-500">
+                                Inicio
                             </Link>
                         </li>
                         <li className="ml-2 xl:ml-6">
-                            <Link href="/philosophy" className="font-semibold text-lg hover:text-violet-500">
-                                Filosofia
+                            <Link href="/quienes_somos" className="font-semibold text-lg hover:text-violet-500">
+                            Quienes Somos
                             </Link>
                         </li>
                         <li className="ml-2 xl:ml-6">
-                            <Link href="/resources" className="font-semibold text-lg hover:text-violet-500">
-                                Recursos
+                            <Link href="/#services" className="font-semibold text-lg hover:text-violet-500">
+                               Nuestros servicios
                             </Link>
                         </li>
-                        <li className="ml-2 xl:ml-6">
-                            <Link href="/case-study" className="font-semibold text-lg hover:text-violet-500">
-                                Contactanos
-                            </Link>
-                        </li>
-                        <li className="ml-2 xl:ml-6">
-                            <Link href="/reviews" className="font-semibold text-lg hover:text-violet-500">
-                                Reseñas
-                            </Link>
-                        </li>
+
                     </ul>
                 </div>
             </div>
             {openMenu && (
-                <div className="absolute top-0 left-0 h-screen w-full bg-white z-50 lg:hidden">
+                <div className="absolute top-0 left-0 h-screen w-full mob-nav z-50 lg:hidden">
                     <div className='flex px-6 pt-6 '>
                         <div className='container mx-auto flex items-center'>
                             <Link href="/" className='flex items-center mr-10'>
@@ -64,20 +55,14 @@ export default function Navbar() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center h-full">
-                        <Link href="/our-story" className="font-semibold pb-2 text-lg hover:text-violet-500">
-                                Our Story
+                        <Link href="/" onClick={toggleMenu} className="font-semibold pb-2 text-lg hover:text-violet-500">
+                                Inicio
                         </Link>
-                        <Link href="/philosophy" className="font-semibold py-2 text-lg hover:text-violet-500">
-                                Philosophy
+                        <Link href="/quienes_somos"  onClick={toggleMenu}className="font-semibold py-2 text-lg hover:text-violet-500">
+                                Quienes Somos
                         </Link>
-                        <Link href="/resources" className="font-semibold py-2 text-lg hover:text-violet-500">
-                                Resources
-                        </Link>
-                        <Link href="/free-case-study" className="font-semibold py-2 text-lg hover:text-violet-500">
-                                Free Case Study
-                        </Link>
-                        <Link href="/reviews" className="font-semibold pt-2 text-lg hover:text-violet-500">
-                                Reviews
+                        <Link href="#services" onClick={toggleMenu} className="font-semibold py-2 text-lg hover:text-violet-500">
+                                Nuestros Servicios
                         </Link>
                         </div>
                 </div>

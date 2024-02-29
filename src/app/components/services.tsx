@@ -6,7 +6,7 @@ import { CiCircleCheck } from "react-icons/ci";
 
 export default function ServicesSection() {
   return (
-    <div className="py-8">
+    <div className="py-8" id='services'>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-12">
           Nuestros Servicios
