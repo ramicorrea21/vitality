@@ -14,7 +14,7 @@ export default function Footer() {
         <div>
           <Link href="https://instagram.com/vitalityarg" className='flex' target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="text-xl" />
-            @vitalityarg
+            @vitality_arg
           </Link>
         </div>
       </div>
