@@ -19,7 +19,7 @@ export default function AboutUsSection() {
 
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <Image
-              src="/img/team.webp"
+              src="/img/Team.webp"
               alt="Equipo de vitality"
               width={500}
               height={300}
