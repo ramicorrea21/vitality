@@ -81,7 +81,7 @@ export default function Navbar() {
                         <Link href="/quienes_somos"  onClick={toggleMenu}className="font-semibold py-2 text-lg hover:text-violet-500">
                                 Quienes Somos
                         </Link>
-                        <Link href="#services" onClick={toggleMenu} className="font-semibold py-2 text-lg hover:text-violet-500">
+                        <Link href="/#services" onClick={toggleMenu} className="font-semibold py-2 text-lg hover:text-violet-500">
                                 Nuestros Servicios
                         </Link>
                         </div>
