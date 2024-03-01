@@ -12,7 +12,7 @@ export default function Footer() {
           Córdoba, Argentina
         </div>
         <div>
-          <Link href="https://instagram.com/vitalityarg" className='flex' target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <Link href="https://instagram.com/vitality_arg" className='flex' target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="text-xl" />
             @vitality_arg
           </Link>
