@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import WspButton from "./components/wsp";
 import { Analytics } from "@vercel/analytics/react"
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
-        {children}
-        <Analytics/>
-        <WspButton/>
-        </body>
+        <div className="flex flex-col min-h-screen ">
+          <div className="flex-grow">
+            <Navbar />
+            {children}
+            <Analytics />
+            <WspButton />
+          </div>
+        </div>
+        <Footer/>
+      </body>
     </html>
   );
 }

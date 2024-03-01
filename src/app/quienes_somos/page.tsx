@@ -6,7 +6,7 @@ export default function AboutUsSection() {
     <div className="pt-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center gap-8">
-          {/* Contenedor de texto */}
+
           <div className="md:w-1/2 text-gray-800">
             <h2 className="text-3xl font-bold mb-4">Quiénes Somos</h2>
             <p className="text-lg mb-4">
@@ -17,22 +17,17 @@ export default function AboutUsSection() {
             </p>
           </div>
 
-          {/* Contenedor de la imagen */}
           <div className="md:w-1/2 flex justify-center md:justify-end">
-            {/* Asegúrate de reemplazar 'path-to-your-image.jpg' con la ruta correcta a tu imagen */}
             <Image
-              src="/img/team.svg"
-              alt="Equipo de [Nombre de tu empresa]"
+              src="/img/team.webp"
+              alt="Equipo de vitality"
               width={500}
               height={300}
-              objectFit="cover" // Ajusta según sea necesario
+              objectFit="cover" 
               className="rounded-lg "
             />
           </div>
         </div>
-      </div>
-      <div className="mt-52">
-      <Footer/>
       </div>
     </div>
   );

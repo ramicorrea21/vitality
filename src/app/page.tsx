@@ -8,7 +8,6 @@ export default function Home(){
       <Banner/>
       <ServicesSection/>
       <MissionSection/>
-      <Footer/>
     </div>
   )
 }

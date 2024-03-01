@@ -7,11 +7,10 @@ export default function MissionSection() {
             <div className="container mx-auto flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 mb-8 md:mb-0">
                     <Image
-                        src="/img/dashboard-man.svg"
+                        src="/img/dashboard-man.webp"
                         alt="Nuestra Misión"
                         width={500}
-                        height={300}
-                        layout="responsive"
+                        height={500}
                     />
                 </div>
 

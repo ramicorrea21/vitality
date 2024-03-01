@@ -16,10 +16,10 @@ export default function WspButton() {
           rel="noopener noreferrer"
         >
           <Image
-            src="/img/Whatsapp.svg"
+            src="/img/Whatsapp.webp"
             alt="whatsapp"
-            width={100}
-            height={100}
+            width={75}
+            height={75}
             className="fixed  bottom-8 right-4 rounded-full cursor-pointer"
           />
         </Link>

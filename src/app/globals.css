@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-    background-image: url('/img/background.svg');
+    background-image: url('/img/background.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
 .mob-nav{
-  background-image: url('/img/background.svg');
+  background-image: url('/img/background.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
