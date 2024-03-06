@@ -16,7 +16,7 @@ export default function ServicesSection() {
             <div key={index} className={`flex flex-col items-center justify-between p-6 rounded-lg shadow-lg ${service.bgColor} transition duration-300`}>
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-2 text-white">{service.name}</h3>
-                <p className="text-3xl font-semibold mb-4 text-white">{service.price}<span className='text-lg'> /año</span></p>
+                <p className="text-3xl font-semibold mb-4 text-white">{service.price}<span className='text-lg'></span></p>
                 <ul className="mb-4 text-white text-start ml-2">
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="mb-4 flex"><CiCircleCheck size={25} className='mr-1'/>{feature}</li>
