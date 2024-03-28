@@ -1,7 +1,7 @@
 export const services = [
     {
       name: 'Landing Page',
-      price: '$150.000 - $225.000',
+      price: 'USD$150 - 225',
       features: [
         'Cumplimiento de estándares de accesibilidad y velocidad.',
         'Diseño 100% adaptable a cualquier tamaño de pantalla.',
@@ -26,7 +26,7 @@ export const services = [
     },
     {
       name: 'Aplicaciones Web a Medida',
-      price: 'A partir de $250.000',
+      price: 'A partir de USD$250',
       features: [
         'Soluciones de Extremo a Extremo',
         'Arquitectura Escalable',
@@ -42,7 +42,7 @@ export const services = [
   export const marketing = [
     {
       name: 'Identidad De Marca',
-      price: '$160.000',
+      price: 'USD$170',
       features: [
         'Creación de logo o rebranding',
         'Determinación de paleta de colores',
@@ -55,7 +55,7 @@ export const services = [
     },
     {
       name: 'Campañas de Redes Sociales',
-      price: '110.000/mes',
+      price: 'USD$150/mes',
       features: [
         'Planificación y cronograma del contenido.',
         'Realización de placas + copywriting (6 feeds).',
@@ -67,7 +67,7 @@ export const services = [
     },
     {
       name: 'Ads y Campañas de Publicidad',
-      price: '110.000/campaña + Presupuesto de pauta',
+      price: 'USD$120/campaña + Presupuesto de pauta',
       features: [
         'Creación de campaña orientada a objetivos de crecimiento.',
         'Segmentación y creación de perfil de clientes.',
